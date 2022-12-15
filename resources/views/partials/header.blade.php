@@ -34,4 +34,8 @@
         </div>
 
     </div>
+
+    <div class="jumbo">
+        {{-- img di background --}}
+    </div>
 </header>
