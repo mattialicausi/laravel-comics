@@ -1,1 +1,67 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+// PALETTE COLORI
+$blue : rgb(49, 132, 251);
+$bg-footer: rgb(48, 48, 48);
+
+// MODIFICHE GENERALI
+
+.my-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+// MODIFICHE FOOTER
+
+.bg-footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    color: gray;
+
+    ul li {
+        list-style: none;
+
+        &:first-child {
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            padding: 20px 0;
+        }
+    }
+
+    .logo-footer {
+        background-image: url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+    }
+
+}
+
+    // SOCIAL
+
+    .container-social {
+        padding: 20px;
+        background-color: $bg-footer;
+
+        .mybtn {
+            color: white;
+            padding: 5px;
+            max-width: max-content;
+            border: 1px solid $blue;
+        }
+
+        .follow-us {
+            color: $blue;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .right-social img{
+            margin: 0 5px;
+        }
+    }
+
+.text-blue {
+    color: rgb(49, 136, 250);
+}
