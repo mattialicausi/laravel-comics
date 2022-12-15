@@ -51,13 +51,39 @@ header {
 // MODIFICHE MAIN
 main {
     background-color: $bg-main;
-    padding: 20px 0;
+    padding-top: 20px;
 
     .container-img{
         height: 200px;
 
         img {
             height: 100%;
+        }
+    }
+
+    .btn-main {
+        background-color: $blue;
+        padding: 5px 20px;
+        color: white;
+        max-width: max-content;
+        margin: 10px auto;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+
+    // MERCHANDISING
+
+    .container-merch {
+        background-color: $blue;
+        color: white;
+
+        img {
+            height: 100px;
+            width: auto;
         }
     }
 }
