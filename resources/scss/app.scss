@@ -13,6 +13,32 @@ $bg-footer: rgb(48, 48, 48);
 
 
 
+// MODIFICHE HEADER
+
+header {
+
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    a{
+        list-style: none;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+
+        &:hover {
+            border-bottom: 3px solid $blue;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+
 // MODIFICHE FOOTER
 
 .bg-footer {
