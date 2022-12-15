@@ -19,3 +19,15 @@ Route::get('/', function () {
     return view('comics', compact('fumetti'));
 
 })->name('comics');
+
+
+// route per i fumetti
+
+Route::get('/', function () {
+    $fumetti = config('comics.fumetti');
+
+    return view('comics', compact('fumetti'));
+
+})->name('comics');
+
+

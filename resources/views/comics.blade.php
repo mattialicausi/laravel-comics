@@ -45,7 +45,7 @@
                     <div class="text-uppercase px-2">subscription</div>
                 </div>
 
-                <div class="col d-flex align-items-center py-3>
+                <div class="col d-flex align-items-center py-3">
                     <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="image product">
                     <div class="text-uppercase px-2">comic shop location</div>
                 </div>
