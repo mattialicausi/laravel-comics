@@ -19,7 +19,11 @@
 
 @include('partials.header')
 
-    @yield('main')
+<main>
+      @yield('main')
+</main>
+
+
 
 @include('partials.footer')
 

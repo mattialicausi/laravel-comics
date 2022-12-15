@@ -3,6 +3,7 @@
 // PALETTE COLORI
 $blue : rgb(49, 132, 251);
 $bg-footer: rgb(48, 48, 48);
+$bg-main: rgb(28, 28, 28);
 
 // MODIFICHE GENERALI
 
@@ -42,6 +43,23 @@ header {
         background-size: cover;
     }
 
+}
+
+
+
+
+// MODIFICHE MAIN
+main {
+    background-color: $bg-main;
+    padding: 20px 0;
+
+    .container-img{
+        height: 200px;
+
+        img {
+            height: 100%;
+        }
+    }
 }
 
 
