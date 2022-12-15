@@ -3,6 +3,8 @@
 
 @section('main')
 
+    <div class="mybtn-jumbo text-uppercase">current series</div>
+
     <div class="my-container">
 
         <div class="row">
@@ -13,7 +15,7 @@
                         <img src="{{$item['thumb']}}" alt="{{$item['title']}}">
                    </div>
 
-                    <div class="text-white">{{$item['title']}}</div>
+                    <div class="text-white py-2">{{$item['series']}}</div>
 
                 </div>
             @endforeach

@@ -35,7 +35,7 @@
 
     </div>
 
-    <div class="jumbo">
+    <div class="jumbo position-relative">
         {{-- img di background --}}
     </div>
 </header>

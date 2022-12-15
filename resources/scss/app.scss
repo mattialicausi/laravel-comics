@@ -76,6 +76,18 @@ main {
         &:hover {
             cursor: pointer;
         }
+
+    }
+
+    .mybtn-jumbo {
+        background-color: $blue;
+        padding: 10px;
+        max-width: max-content;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        bottom: 380px;
+        left: 200px;
     }
 
 
